@@ -1,8 +1,8 @@
 # Bhavitha G. — Portfolio
 
-A personal portfolio website for **Bhavitha G.**, a 2026 Computer Science and Design Engineering
+A personal portfolio website for **Bhavitha G**, a 2026 Computer Science and Design Engineering
 graduate. Built to showcase full-stack projects, a machine learning final-year project, a
-five-month internship, a research publication, and data analytics work — positioned for
+four-month internship, a research publication, and data analytics work — positioned for
 entry-level software / full-stack / ML / data roles.
 
 ## 1. Project Overview
@@ -86,26 +86,24 @@ npm run preview
   hidden until the link is ready.
 - **Contact information** — edit `src/sections/Contact.jsx` (phone, LinkedIn, GitHub) and
   `src/components/Footer.jsx` (GitHub, LinkedIn).
-- **Profile image** — the hero section currently uses a code-editor style visual instead of a
-  photo. If you'd like to add a profile photo, place the image in `src/assets/` and reference it
-  from `src/sections/Hero.jsx`.
+- **Profile image** — the hero section currently uses text only, no photo. If you'd like to add
+  a profile photo, place the image in `src/assets/` and reference it from `src/sections/Hero.jsx`.
 - **Skills / Education** — edit `src/data/skills.js` and `src/data/education.js`.
 - **Open Graph image** — add an `og-image.png` file to the `public/` folder to replace the
   placeholder reference in `index.html`.
 
-## 8. Deploying to GitHub
+## 8. GitHub Repository
+
+This project is already pushed to GitHub:
+**https://github.com/Bhavithagolthila/Portfolio**
+
+To push future changes:
 
 ```bash
-git init
 git add .
-git commit -m "Initial commit: portfolio website"
-git branch -M main
-git remote add origin <YOUR_GITHUB_REPOSITORY_URL>
-git push -u origin main
+git commit -m "your message"
+git push
 ```
-
-Replace `<YOUR_GITHUB_REPOSITORY_URL>` with the URL of your GitHub repository, for example:
-`https://github.com/Bhavithagolthila/portfolio.git`
 
 ## 9. Deploying to Vercel
 
